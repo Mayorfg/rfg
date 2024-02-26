@@ -1,0 +1,1972 @@
+
+
+
+/* For Mobile */
+@media screen and (max-device-width:640px) and (orientation: portrait) {
+
+  body {
+    overflow-x: hidden;
+    height: fit-content;
+  }
+  
+  .header {
+    height: fit-content;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  }
+  
+  .main {
+    height: fit-content;
+    width: 100%;
+    display: block;
+  }
+  
+  .preview {
+    height: fit-content;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  }
+  
+  .upcoming-view {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .locate-hour {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    display: block;
+    margin-top: 60px;
+  }
+  
+  .article {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  
+  }
+  
+  .address-info {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  }
+  
+  .footer-index {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  }
+  
+  .homebutton {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .App {
+    text-align: center;
+    overflow-x: hidden;
+    height: fit-content;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  /* Component 1 */
+
+  /* Toolbar Block */
+  .toolbar {
+    height: fit-content;
+    background-color: rgb(255, 72, 0);
+    text-align: left;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1000;
+  }
+
+  /* Nav Block */
+  .nav {
+    position: relative;
+    top: 0%;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    height: inherit;
+    display: flex;
+
+  }
+
+  /* RFG Logo */
+  .nav h1 {
+    font-size: calc(20px + 3vmin);
+    position: relative;
+    top: 0%;
+    left: 3%;
+    margin: 0px;
+    font-family: cursive;
+    width: fit-content;
+    font-weight: 1000;
+  }
+
+  /* Nav Key text */
+  .nav .sp {
+    position: absolute;
+    right: 0%;
+    bottom: 20%;
+    width: fit-content;
+    height: fit-content;
+
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  /* Nav Key Block */
+  .topnav {
+    color: black;
+    text-decoration: none;
+    padding-left: calc(0.5vmin);
+    padding-right: calc(0.5vmin);
+    font-weight: 500;
+    font-size: calc(4px + 2.2vmin);
+  }
+
+  /* Nav Key hover */
+  .topnav:hover {
+    color: yellow;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  /* Component 1*/
+
+
+  /* Component 2 */
+
+  /* Main Image Block */
+  .FirstImage {
+    margin: 0px;
+    text-align: center;
+    height: 550px;
+    width: 100%;
+  }
+
+  /* Main Image */
+  .FirstImage img {
+    height: calc(100%);
+    width: 100%;
+    margin: 0px;
+  }
+
+  /* Welcome text */
+  .FirstImage h1 {
+    position: relative;
+    top: -280px;
+    font-size: calc(10vmin);
+    font-family: Bradley Hand, cursive;
+    z-index: 999;
+    margin: 0px;
+  }
+
+  /* Launch Date Text */
+  .FirstImage h2 {
+    position: relative;
+    top: calc(-270px);
+    font-size: calc(5vmin);
+    font-family: Bradley Hand, cursive;
+    z-index: 999;
+    margin: 0px;
+  }
+
+  /* Component 2 */
+
+
+
+  /* Component 3 */
+
+  /* Upcoming Main Block */
+  .Upcoming {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-color: white;
+  }
+
+  /* Upcoming Header Block */
+  .views {
+    height: auto;
+    position: relative;
+    height: calc(38px);
+    width: 85%;
+    left: 7.5%;
+    margin-top: 0%;
+    margin-bottom: 15px;
+  }
+
+  /* Upcoming Header Text */
+  .views p {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    font-size: 6.5vmin;
+    margin: 0 auto;
+  }
+
+  /* View all exhibitions Text */
+  .views a {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    font-size: 3.5vmin;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+
+  /* View all exhibition text hover */
+  .views a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  /* Upcoming view main block */
+  .mainviews {
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowraps;
+    -ms-overflow-style: none;
+    /* Hide scrollbar IE and Edge */
+    scrollbar-width: none;
+    /* Hide scrollbar Firefox */
+    scroll-behavior: smooth;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  /* Hide Horizontal Scroll */
+  .mainviews::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+  }
+
+  /* Upcoming view section */
+  .uv {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 0%;
+    text-align: left;
+    margin-left: 7.5%;
+    margin-right: -4%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display:inline;
+  }
+
+  /* Upcoming view image */
+  .uv .img {
+    width: 85vw;
+    height: 180px;
+    margin-bottom: 5px;
+  }
+
+  /* Upcoming view Title text */
+  .uvt {
+    color: black;
+    font-size: 5vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 600;
+    padding-bottom: 1px;
+  }
+
+  /* Upcoming view Title text hover */
+  .uvt:hover {
+    text-decoration: underline;
+
+  }
+
+  /* Upcoming view 1 caption */
+  .figcap {
+    color: rgb(73, 67, 67);
+  }
+
+  /* Upcoming view Caption */
+  .figcap p {
+    padding-top: 7px;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 3vmin;
+  }
+
+  /* Upcoming view scroll button section */
+  .btn {
+    width: 88%;
+    height: fit-content;
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    visibility: hidden;
+    z-index: 1000;
+    text-align: left;
+    z-index: -1000;
+  }
+
+  /* Button sub div */
+  .btn div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  /* Upcoming view Left scroll button */
+  .btn-L {
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 0px;
+    font-size: 25px;
+    font-weight: 1000;
+    position: absolute;
+    left: 0%;
+    text-decoration: none;
+    z-index: -1000;
+  }
+
+  /* Upcoming view Left scroll button hover */
+  .btn-L:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  /* Upcoming view Right scroll button */
+  .btn-R {
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 0px;
+    font-size: 25px;
+    font-weight: 1000;
+    position: absolute;
+    right: 0%;
+    text-decoration: none;
+    z-index: -1000;
+  }
+
+  /* Upcoming view Right scroll button hover */
+  .btn-R:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  /* Upcoming View End Padding */
+  .endview {
+    display: inline-block;
+    width: 10px;
+    height: 200px;
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  /* Component 3 */
+
+
+
+  /* Component 4 */
+  /* Location and Hour Box */
+  .LH {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    text-align: left;
+    margin: 0 auto;
+    height: fit-content;
+    width: 85%;
+    margin-top: calc(3vmin);
+    margin-bottom: 20px;
+  }
+
+  /* Locaton an Hours Header Section */
+  .location {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  /* Locaton an Hours Header text */
+  .location p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6.5vmin;
+    color: black;
+    margin: 0%;
+  }
+
+  /* Locaton and Hours Photo Secton */
+  .p-locate {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(242, 242, 242);
+  }
+
+  /* Locaton and Hours Photo Secton */
+  .locate-photo {
+    width: 100%;
+    height: 55%;
+  }
+
+  /* Locaton and Hours Photo size*/
+  div.locate-photo a img {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  /* Locaton and Hours Name Text*/
+  .locate-text {
+    width: 100%;
+    color: rgb(49, 49, 49);
+    position: relative;
+    top: 2%;
+    left: 6%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5vmin;
+    text-decoration: none;
+  }
+
+  /* Locaton and Hours Name Text hover*/
+  .locate-text:hover {
+    text-decoration: underline;
+  }
+
+  /* Short Info */
+  .info {
+    color: rgb(112, 112, 112);
+    position: relative;
+    top: 0%;
+    left: 6%;
+    font-size: 4vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Clock - Open or Close */
+  .clock {
+    position: relative;
+    top: 3%;
+    left: 6%;
+    font-size: 3.8vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Hours  */
+  .hours {
+    color: rgb(56, 56, 56);
+    position: relative;
+    top: 4%;
+    left: 6%;
+    font-size: 3vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Closed days*/
+  .closed {
+    color: rgb(166, 166, 166);
+    position: relative;
+    top: 8%;
+    left: 6%;
+    font-size: 2.5vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Component 4 */
+
+
+  /* Component 5 */
+
+  /*  Article Main Block */
+  .a-Main {
+    width: 100%;
+    position: relative;
+  }
+
+  /* Article  block */
+  .block {
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 7.5%;
+    width: 85%;
+    height: 450px;
+    background-color: rgb(242, 242, 242);
+    margin-top: 40px;
+    margin-bottom: 0%;
+  }
+
+  /* Article - Photo Block */
+  .block-photo {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 50%;
+  }
+
+  /* Article  image */
+  .block a img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Article  Text block */
+  div.block div {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+
+  /* Article Text 1 */
+  .t-subtext1 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5.5vmin;
+  }
+
+  /* Article Text 2 */
+  .t-subtext2 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vmin;
+    color: rgb(87, 87, 87);
+  }
+
+  /* Article Text 3 */
+  .t-subtext3 {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vmin;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* Article Text 3 hover */
+  .t-subtext3:hover {
+    text-decoration: none;
+  }
+
+  /* Component 5 */
+
+
+  /* Component 6 */
+
+  /* Join RFG Section*/
+  .join {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(255, 72, 0);
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 0%;
+  }
+
+  /* Join RFG Text*/
+  .join p {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6vmin;
+    color: white;
+    margin: 0%;
+  }
+
+  /* Enter Email Block*/
+  .join div {
+    position: absolute;
+    height: 35px;
+    width: 80%;
+    top: 45%;
+    left: 10%;
+    text-align: left;
+    background-color: none;
+  }
+
+  /* Inner Enter Email Block */
+  .join-input div {
+    position: relative;
+    height: 100%;
+    width: 90%;
+    text-align: left;
+    display: flex;
+    background-color: none;
+    left: 0; top: 0;
+  }
+
+  /* Email section */
+  .join-input div input {
+    width: 100%;
+    height: 100%;
+    font-size: 3.3vmin;
+    outline: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: absolute;
+    left: 0%;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+  }
+
+  /* Button section */
+  .join-input div button {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    height: 100%;
+    width: 5px;
+    font-weight: lighter;
+    outline: none;
+    border: none;
+    font-size: 5vmin;
+    font-weight: 500;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    color: black;
+  }
+
+  /* Button section hover */
+  .join div button:hover {
+    color: red;
+    font-weight: bolder;
+  }
+
+  /* Other Info and Links */
+  .end-info {
+    text-align: left;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: blue;
+    display: block;
+  }
+
+
+  /* Address Block */
+  .address {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+    border-bottom: 0.5px solid gray;
+    border-right: 0%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  /* Download the App hover */
+  .address a:hover {
+    text-decoration: underline;
+    font-weight: 1000;
+  }
+
+
+  /* RFG Logo */
+  .logoend {
+    position: relative;
+    left: 7.5%;
+    top: 0%;
+    font-size: 7vmin;
+    font-family: cursive;
+    margin: 0%;
+    font-weight: 800;
+  }
+
+  /* RFG Address */
+  .addy {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    font-size: 3vmin;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+
+  /* Download the App */
+  .address a {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 3.5vmin;
+  }
+
+  /* Other Info Block */
+  .other {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(205, 205, 205);
+
+  }
+
+  /* Block A */
+  .other .a {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border: 0.5px gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* Block B */
+  .other .b {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border: 0.5px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* Block C */
+  .other .c {
+    position: relative;
+    left: 0%; top: 0%;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border: 0.5px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* Block D */
+  .other .d {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border-top: 0.5px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* Block E */
+  .other .e {
+    text-align: left;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border: 0.5px solid gray;
+  }
+
+  /* All Block Text */
+  .other p {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    font-size: 3vmin;
+  }
+
+  /* All Block hyperlink */
+  .other a {
+    text-decoration: none;
+  }
+
+  /* Social Media Logo */
+  .social img {
+    position: relative;
+    top: 25%;
+    left: 7.5%;
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Social Media Logo hover */
+  .social img:hover {
+    border: 1px solid black;
+  }
+
+  /* Block E Text */
+  .other .e p {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    font-size: 3.3vmin;
+    font-weight: 545;
+    margin-bottom: 1%;
+  }
+
+  /* Block E Email and Button Section*/
+  .other .e div {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    margin-bottom: 15px;
+  }
+
+  /* Block E Email input */
+  .other .e div input {
+    width: 60%;
+    height: 5vmin;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  /* Block E Sign Up Button */
+  .other .e div button {
+    position: inherit;
+    left: 3%;
+    width: 15%;
+    height: 6vmin;
+    font-size: 2.4vmin;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+  }
+
+  /* Block E Sign Up Button Hover */
+  .other .e div button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  /* Component 6 */
+
+
+  /* Component 7 */
+
+  /* End Block */
+  .end {
+    width: 85%;
+    height: fit-content;
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    text-align: left;
+    margin-top: 15px;
+    padding-bottom: 5px;
+
+  }
+
+  /* Footer */
+  .footer {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    font-size: 3vmin;
+  }
+
+  /* Site Index Block */
+  .end div {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin-bottom: 4%;
+  }
+
+  /* Site Index */
+  .index {
+    color: black;
+    text-decoration: none;
+    font-size: 3vmin;
+    display: block;
+    padding-bottom: 5px;
+    margin: 0%;
+  }
+
+  /* Site Index hover */
+  .index:hover {
+    text-decoration: underline;
+  }
+
+  /* Component 7 */
+
+  /* Home Button */
+  /* Home Button */
+  .uphome {
+    background-color: rgb(255, 72, 0);
+    border-radius: 30%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 1%;
+    right: 1vw;
+    font-size: 20px;
+    font-weight: 1000;
+    visibility: hidden;
+    z-index: -1000;
+  }
+
+  /* Home Button hover */
+  .uphome:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+
+
+
+@media screen and (max-device-width:930px) and (orientation: landscape) {
+
+  body {
+    overflow-x: hidden;
+    height: fit-content;
+  }
+  
+  .header {
+    height: fit-content;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  }
+  
+  .main {
+    height: fit-content;
+    width: 100%;
+    display: block;
+  }
+  
+  .preview {
+    height: fit-content;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  }
+  
+  .upcoming-view {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .locate-hour {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .article {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  
+  }
+  
+  .address-info {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  }
+  
+  .footer-index {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    display: block;
+  }
+  
+  .homebutton {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .App {
+    text-align: center;
+    overflow-x: hidden;
+    height: fit-content;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  /* Component 1 */
+
+  /* Toolbar Block */
+  .toolbar {
+    height: fit-content;
+    background-color: rgb(255, 72, 0);
+    text-align: left;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1000;
+  }
+
+  /* Nav Block */
+  .nav {
+    position: relative;
+    top: 0%;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    height: inherit;
+    display: flex;
+
+  }
+
+  /* RFG Logo */
+  .nav h1 {
+    font-size: calc(20px + 3vmin);
+    position: relative;
+    top: 0%;
+    left: 3%;
+    margin: 0px;
+    font-family: cursive;
+    width: fit-content;
+    font-weight: 1000;
+  }
+
+  /* Nav Key text */
+  .nav .sp {
+    position: absolute;
+    right: 0%;
+    bottom: 20%;
+    width: fit-content;
+    height: fit-content;
+
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  /* Nav Key Block */
+  .topnav {
+    color: black;
+    text-decoration: none;
+    padding-left: calc(0.5vmin);
+    padding-right: calc(0.5vmin);
+    font-weight: 500;
+    font-size: calc(4px + 2.2vmin);
+  }
+
+  /* Nav Key hover */
+  .topnav:hover {
+    color: yellow;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  /* Component 1*/
+
+
+  /* Component 2 */
+
+  /* Main Image Block */
+  .FirstImage {
+    margin: 0px;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+  }
+
+  /* Main Image */
+  .FirstImage img {
+    height: calc(100%);
+    width: 100%;
+    margin: 0px;
+  }
+
+  /* Welcome text */
+  .FirstImage h1 {
+    position: relative;
+    top: -180px;
+    font-size: calc(10vmin);
+    font-family: Bradley Hand, cursive;
+    z-index: 999;
+    margin: 0px;
+  }
+
+  /* Launch Date Text */
+  .FirstImage h2 {
+    position: relative;
+    top: calc(-170px);
+    font-size: calc(5vmin);
+    font-family: Bradley Hand, cursive;
+    z-index: 999;
+    margin: 0px;
+  }
+
+  /* Component 2 */
+
+
+
+  /* Component 3 */
+
+  /* Upcoming Main Block */
+  .Upcoming {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-color: white;
+  }
+
+  /* Upcoming Header Block */
+  .views {
+    height: auto;
+    position: relative;
+    height: calc(38px);
+    width: 85%;
+    left: 7.5%;
+    margin-top: 0%;
+    margin-bottom: 15px;
+  }
+
+  /* Upcoming Header Text */
+  .views p {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    font-size: 6.5vmin;
+    margin: 0 auto;
+  }
+
+  /* View all exhibitions Text */
+  .views a {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    font-size: 3.5vmin;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+
+  /* View all exhibition text hover */
+  .views a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  /* Upcoming view main block */
+  .mainviews {
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowraps;
+    -ms-overflow-style: none;
+    /* Hide scrollbar IE and Edge */
+    scrollbar-width: none;
+    /* Hide scrollbar Firefox */
+    scroll-behavior: smooth;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  /* Hide Horizontal Scroll */
+  .mainviews::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+  }
+
+  /* Upcoming view section */
+  .uv {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 0%;
+    text-align: left;
+    margin-left: 7.5%;
+    margin-right: -4%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display:inline;
+  }
+
+  /* Upcoming view image */
+  .uv .img {
+    width: 75vw;
+    height: 350px;
+    margin-bottom: 5px;
+  }
+
+  /* Upcoming view Title text */
+  .uvt {
+    color: black;
+    font-size: 4vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 600;
+    padding-bottom: 1px;
+  }
+
+  /* Upcoming view Title text hover */
+  .uvt:hover {
+    text-decoration: underline;
+
+  }
+
+  /* Upcoming view 1 caption */
+  .figcap {
+    color: rgb(73, 67, 67);
+  }
+
+  /* Upcoming view Caption */
+  .figcap p {
+    padding-top: 7px;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 2vmin;
+  }
+
+  /* Upcoming view scroll button section */
+  .btn {
+    width: 88%;
+    height: fit-content;
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    visibility: hidden;
+    z-index: 1000;
+    text-align: left;
+    z-index: -1000;
+  }
+
+  /* Button sub div */
+  .btn div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  /* Upcoming view Left scroll button */
+  .btn-L {
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 0px;
+    font-size: 25px;
+    font-weight: 1000;
+    position: absolute;
+    left: 0%;
+    text-decoration: none;
+    z-index: -1000;
+  }
+
+  /* Upcoming view Left scroll button hover */
+  .btn-L:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  /* Upcoming view Right scroll button */
+  .btn-R {
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 0px;
+    font-size: 25px;
+    font-weight: 1000;
+    position: absolute;
+    right: 0%;
+    text-decoration: none;
+    z-index: -1000;
+  }
+
+  /* Upcoming view Right scroll button hover */
+  .btn-R:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  /* Upcoming View End Padding */
+  .endview {
+    display: inline-block;
+    width: 10px;
+    height: 200px;
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  /* Component 3 */
+
+
+
+  /* Component 4 */
+  /* Location and Hour Box */
+  .LH {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    text-align: left;
+    margin: 0 auto;
+    height: fit-content;
+    width: 85%;
+    margin-top: calc(1vmin);
+    margin-bottom: 20px;
+  }
+
+  /* Locaton an Hours Header Section */
+  .location {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  /* Locaton an Hours Header text */
+  .location p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6.5vmin;
+    color: black;
+    margin: 0%;
+  }
+
+  /* Locaton and Hours Photo Secton */
+  .p-locate {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(242, 242, 242);
+  }
+
+  /* Locaton and Hours Photo Secton */
+  .locate-photo {
+    width: 100%;
+    height: 55%;
+  }
+
+  /* Locaton and Hours Photo size*/
+  div.locate-photo a img {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  /* Locaton and Hours Name Text*/
+  .locate-text {
+    width: 100%;
+    color: rgb(49, 49, 49);
+    position: relative;
+    top: 2%;
+    left: 6%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5vmin;
+    text-decoration: none;
+  }
+
+  /* Locaton and Hours Name Text hover*/
+  .locate-text:hover {
+    text-decoration: underline;
+  }
+
+  /* Short Info */
+  .info {
+    color: rgb(112, 112, 112);
+    position: relative;
+    top: 0%;
+    left: 6%;
+    font-size: 3.5vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Clock - Open or Close */
+  .clock {
+    position: relative;
+    top: 3%;
+    left: 6%;
+    font-size: 3vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Hours  */
+  .hours {
+    color: rgb(56, 56, 56);
+    position: relative;
+    top: 4%;
+    left: 6%;
+    font-size: 3vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Closed days*/
+  .closed {
+    color: rgb(166, 166, 166);
+    position: relative;
+    top: 8%;
+    left: 6%;
+    font-size: 2.5vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Component 4 */
+
+
+  /* Component 5 */
+
+  /*  Article Main Block */
+  .a-Main {
+    width: 100%;
+    position: relative;
+  }
+
+  /* Article  block */
+  .block {
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 7.5%;
+    width: 85%;
+    height: 700px;
+    background-color: rgb(242, 242, 242);
+    margin-top: 40px;
+    margin-bottom: 0%;
+  }
+
+  /* Article - Photo Block */
+  .block-photo {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 55%;
+  }
+
+  /* Article  image */
+  .block a img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Article  Text block */
+  div.block div {
+    position: relative;
+    top: 55%;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+
+  /* Article Text 1 */
+  .t-subtext1 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6vmin;
+  }
+
+  /* Article Text 2 */
+  .t-subtext2 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4.5vmin;
+    color: rgb(87, 87, 87);
+  }
+
+  /* Article Text 3 */
+  .t-subtext3 {
+    width: 100%;
+    position: relative;
+    top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4.5vmin;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* Article Text 3 hover */
+  .t-subtext3:hover {
+    text-decoration: none;
+  }
+
+  /* Component 5 */
+
+
+  /* Component 6 */
+
+  /* Join RFG Section*/
+  .join {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(255, 72, 0);
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 0%;
+  }
+
+  /* Join RFG Text*/
+  .join p {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6vmin;
+    color: white;
+    margin: 0%;
+  }
+
+  /* Enter Email Block*/
+  .join div {
+    position: absolute;
+    height: 35px;
+    width: 80%;
+    top: 45%;
+    left: 10%;
+    text-align: left;
+    background-color: none;
+  }
+
+  /* Inner Enter Email Block */
+  .join-input div {
+    position: relative;
+    height: 100%;
+    width: 90%;
+    text-align: left;
+    display: flex;
+    background-color: none;
+    left: 0; top: 0;
+  }
+
+  /* Email section */
+  .join-input div input {
+    width: 100%;
+    height: 100%;
+    font-size: 3.3vmin;
+    outline: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: absolute;
+    left: 0%;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+  }
+
+  /* Button section */
+  .join-input div button {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    height: 100%;
+    width: 5px;
+    font-weight: lighter;
+    outline: none;
+    border: none;
+    font-size: 5vmin;
+    font-weight: 500;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    color: black;
+  }
+
+  /* Button section hover */
+  .join div button:hover {
+    color: red;
+    font-weight: bolder;
+  }
+
+  /* Other Info and Links */
+  .end-info {
+    text-align: left;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: blue;
+    display: block;
+  }
+
+
+  /* Address Block */
+  .address {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+    border-bottom: 0.5px solid gray;
+    border-right: 0%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  /* Download the App hover */
+  .address a:hover {
+    text-decoration: underline;
+    font-weight: 1000;
+  }
+
+
+  /* RFG Logo */
+  .logoend {
+    position: relative;
+    left: 7.5%;
+    top: 0%;
+    font-size: 7vmin;
+    font-family: cursive;
+    margin: 0%;
+    font-weight: 800;
+  }
+
+  /* RFG Address */
+  .addy {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    font-size: 2vmin;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+
+  /* Download the App */
+  .address a {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 3.5vmin;
+  }
+
+  /* Other Info Block */
+  .other {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(205, 205, 205);
+
+  }
+
+  /* Block A */
+  .other .a {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border-top: 0.5px gray;
+    border-bottom: 0.5px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* Block B */
+  .other .b {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border-bottom: 0.5px solid gray;
+    border-top: 0.5px gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* Block C */
+  .other .c {
+    position: relative;
+    left: 0%; top: 0%;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border-bottom: 0.5px gray;
+    border-top: 0.5px gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* Block D */
+  .other .d {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border-top: 0.5px solid gray;
+    border-bottom: 0.5px gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0%;
+    border-bottom: 0.5px gray;
+  }
+
+  /* Block E */
+  .other .e {
+    text-align: left;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    height: fit-content;
+    width: 100%;
+    margin-top: 0%;
+    padding-top: 1px;
+    background-color: rgb(242, 242, 242);
+    border-top: 0.5px solid gray;
+  }
+
+  /* All Block Text */
+  .other p {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    font-size: 2vmin;
+  }
+
+  /* All Block hyperlink */
+  .other a {
+    text-decoration: none;
+  }
+
+  /* Social Media Logo */
+  .social img {
+    position: relative;
+    top: 25%;
+    left: 7.5%;
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Social Media Logo hover */
+  .social img:hover {
+    border: 1px solid black;
+  }
+
+  /* Block E Text */
+  .other .e p {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    font-size: 3.3vmin;
+    font-weight: 545;
+    margin-bottom: 1%;
+  }
+
+  /* Block E Email and Button Section*/
+  .other .e div {
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    margin-bottom: 15px;
+  }
+
+  /* Block E Email input */
+  .other .e div input {
+    width: 60%;
+    height: 5vmin;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  /* Block E Sign Up Button */
+  .other .e div button {
+    position: inherit;
+    left: 3%;
+    width: 15%;
+    height: 6vmin;
+    font-size: 2.4vmin;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+  }
+
+  /* Block E Sign Up Button Hover */
+  .other .e div button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  /* Component 6 */
+
+
+  /* Component 7 */
+
+  /* End Block */
+  .end {
+    width: 85%;
+    height: fit-content;
+    position: relative;
+    top: 0%;
+    left: 7.5%;
+    text-align: left;
+    margin-top: 15px;
+    padding-bottom: 5px;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    position: relative;
+    top: 0%;
+    font-size: 13px;
+  }
+
+  /* Site Index Block */
+  .end div {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin-bottom: 4%;
+  }
+
+  /* Site Index */
+  .index {
+    color: black;
+    text-decoration: none;
+    font-size: 2vmin;
+    display: block;
+    padding-bottom: 5px;
+    margin: 0%;
+  }
+
+  /* Site Index hover */
+  .index:hover {
+    text-decoration: underline;
+  }
+
+  /* Component 7 */
+
+  /* Home Button */
+  /* Home Button */
+  .uphome {
+    background-color: rgb(255, 72, 0);
+    border-radius: 30%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 1%;
+    right: 1vw;
+    font-size: 20px;
+    font-weight: 1000;
+    visibility: hidden;
+    z-index: -1000;
+  }
+
+  /* Home Button hover */
+  .uphome:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+}
