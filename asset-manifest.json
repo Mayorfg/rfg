@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/rfg/static/css/main.a4181176.chunk.css",
+    "main.js": "/rfg/static/js/main.47b30315.chunk.js",
+    "main.js.map": "/rfg/static/js/main.47b30315.chunk.js.map",
+    "runtime-main.js": "/rfg/static/js/runtime-main.65ed1c24.js",
+    "runtime-main.js.map": "/rfg/static/js/runtime-main.65ed1c24.js.map",
+    "static/js/2.660ecea6.chunk.js": "/rfg/static/js/2.660ecea6.chunk.js",
+    "static/js/2.660ecea6.chunk.js.map": "/rfg/static/js/2.660ecea6.chunk.js.map",
+    "static/js/3.696b1a2b.chunk.js": "/rfg/static/js/3.696b1a2b.chunk.js",
+    "static/js/3.696b1a2b.chunk.js.map": "/rfg/static/js/3.696b1a2b.chunk.js.map",
+    "index.html": "/rfg/index.html",
+    "precache-manifest.85b18cc964c784f95044f115e6b69a7e.js": "/rfg/precache-manifest.85b18cc964c784f95044f115e6b69a7e.js",
+    "service-worker.js": "/rfg/service-worker.js",
+    "static/css/main.a4181176.chunk.css.map": "/rfg/static/css/main.a4181176.chunk.css.map",
+    "static/js/2.660ecea6.chunk.js.LICENSE.txt": "/rfg/static/js/2.660ecea6.chunk.js.LICENSE.txt",
+    "static/media/animate.gif": "/rfg/static/media/animate.f8ba571c.gif",
+    "static/media/candle.GIF": "/rfg/static/media/candle.7c0a476d.GIF",
+    "static/media/dog.JPG": "/rfg/static/media/dog.0d3b16f9.JPG",
+    "static/media/foam.JPG": "/rfg/static/media/foam.406abfd9.JPG",
+    "static/media/gallery3.JPG": "/rfg/static/media/gallery3.a42ef8a5.JPG",
+    "static/media/light.jpg": "/rfg/static/media/light.7ed66931.jpg",
+    "static/media/mast.GIF": "/rfg/static/media/mast.8936483f.GIF",
+    "static/media/nft.jpeg": "/rfg/static/media/nft.c8cac9bc.jpeg",
+    "static/media/perspective.jpeg": "/rfg/static/media/perspective.638332a4.jpeg",
+    "static/media/rail.jpg": "/rfg/static/media/rail.e0dc7efb.jpg",
+    "static/media/rain.GIF": "/rfg/static/media/rain.e4511208.GIF",
+    "static/media/shop.JPG": "/rfg/static/media/shop.d043add7.JPG",
+    "static/media/sunset.png": "/rfg/static/media/sunset.65310725.png",
+    "static/media/yard.jpeg": "/rfg/static/media/yard.4e6ff86b.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65ed1c24.js",
+    "static/js/2.660ecea6.chunk.js",
+    "static/css/main.a4181176.chunk.css",
+    "static/js/main.47b30315.chunk.js"
+  ]
+}
